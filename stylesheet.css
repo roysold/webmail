@@ -52,11 +52,11 @@ body {
     transition: all .2s ease-in-out;
 }
 
-.item-link:nth-child(odd) > .item {
+#emails-list > li:nth-child(odd) .item {
     background-color: #cccccc;
 }
 
-.item-link:nth-child(even) > .item {
+#emails-list > li:nth-child(even) .item {
     background-color: white;
 }
 
@@ -159,4 +159,8 @@ a {
     float: right;
     bottom: 0;
     right: 0;
+}
+
+main li {
+    list-style: none;
 }
